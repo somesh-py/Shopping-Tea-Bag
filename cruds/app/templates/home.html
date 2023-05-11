@@ -96,7 +96,7 @@
   {% if data %}
   {% for i in data %}
   <a href="{% url 'addtocart' i.id user.id%}">
-    <div class="w3-container" style="width:600px;height:500px;">
+    <div class="w3-container" style="width:600px;height:500px;float: left;">
       <!-- <h5>Photo Card</h5> -->
       <div class="w3-card-4" style="width:50%">
         <img src={{i.image.url}} alt="Alps" style="width:100%">
