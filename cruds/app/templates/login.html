@@ -320,7 +320,7 @@
 <body>
   <form action="/logdata/" method="post">
     {% csrf_token %}
-  <div class="form-structor">
+  <div class="form-structor" style="margin-left:-110px;">
     <div class="signup">
       <h2 class="form-title" id="signup"><span></span>Sign up</h2>
       <div class="form-holder">
@@ -331,6 +331,7 @@
       </div>
       <button class="submit-btn">Sign up</button>
     </div>
+  <!-- margin-top:430px;margin-left:120px; -->
     <div class="login slide-up">
       {% comment %} <div class="center">
         <h2 class="form-title" id="login"><span>or</span>Log in</h2>
@@ -343,6 +344,7 @@
     </div>
   </div>
 </form>
+<a href="/registration/"><button type="submit" class="btn btn-warning" style="margin-top:600px;margin-left:-220px;background-color:lightblue;border:0px;">Registration</button></a>
 </body>
 
 </html>
